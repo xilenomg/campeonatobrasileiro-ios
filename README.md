@@ -1,8 +1,7 @@
 #campeonatobrasileiro-ios
 ========================
 
-##Sobre
-Aplicativo criado para aprendizado. Provavelmente não está em sua melhor forma, mas sugestões serão bem vindas e possivelmente aplicadas.
+Aplicativo criado para aprendizado da linguagem Objective-C. Provavelmente não está em sua melhor forma, mas sugestões serão bem vindas e possivelmente aplicadas.
 
 ##Desenvolvedor
 Eu, Luis Pérez fui o único desenvolvedor desse aplicativo que está disponível na Apple Store por aproximadamente 3 anos.
