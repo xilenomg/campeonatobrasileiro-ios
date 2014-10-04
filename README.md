@@ -1,4 +1,4 @@
-#campeonatobrasileiro-ios
+campeonatobrasileiro-ios
 ========================
 Aplicativo criado para aprendizado da linguagem Objective-C. Provavelmente não está em sua melhor forma, mas sugestões serão bem vindas e possivelmente aplicadas.
 
