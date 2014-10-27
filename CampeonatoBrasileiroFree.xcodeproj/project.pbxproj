@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F35AF5B2FA706EBEB1084CE /* libPods-CampeonatoBrasileiroFree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E7A4C2608E75EA576D0FA5 /* libPods-CampeonatoBrasileiroFree.a */; };
+		A03C452619F49AF800E06A19 /* Constants.h in Sources */ = {isa = PBXBuildFile; fileRef = A03C452519F49A4500E06A19 /* Constants.h */; };
+		A03C452A19F4A14800E06A19 /* Jogos.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C452919F4A14800E06A19 /* Jogos.m */; };
 		A0449CFE19EB061300F69EF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0449CFD19EB061300F69EF2 /* main.m */; };
 		A0449D0119EB061300F69EF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0449D0019EB061300F69EF2 /* AppDelegate.m */; };
 		A0449D0419EB061300F69EF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0449D0319EB061300F69EF2 /* ViewController.m */; };
@@ -14,6 +17,13 @@
 		A0449D0919EB061300F69EF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0449D0819EB061300F69EF2 /* Images.xcassets */; };
 		A0449D0C19EB061300F69EF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0449D0A19EB061300F69EF2 /* LaunchScreen.xib */; };
 		A0449D1819EB061300F69EF2 /* CampeonatoBrasileiroFreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0449D1719EB061300F69EF2 /* CampeonatoBrasileiroFreeTests.m */; };
+		A05E118419F18F3800BC6075 /* JogosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E118319F18F3800BC6075 /* JogosTableViewController.m */; };
+		A05E118719F1901900BC6075 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E118619F1901900BC6075 /* MenuViewController.m */; };
+		A061288519F2EAB900C48AE0 /* JogosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A061288419F2EAB900C48AE0 /* JogosTableViewCell.m */; };
+		A0C7436C19F1BDA300E966AA /* ClassificacaoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C7436B19F1BDA300E966AA /* ClassificacaoTableViewController.m */; };
+		A0C7436F19F1BDB700E966AA /* ArtilhariaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C7436E19F1BDB700E966AA /* ArtilhariaTableViewController.m */; };
+		A0EFA8FE19FD9F6600CCCC80 /* RodadaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EFA8FD19FD9F6600CCCC80 /* RodadaTableViewController.m */; };
+		A0EFA90119FDA04500CCCC80 /* RodadaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EFA90019FDA04500CCCC80 /* RodadaTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48E7A4C2608E75EA576D0FA5 /* libPods-CampeonatoBrasileiroFree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CampeonatoBrasileiroFree.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A73E7C635FF9F850169821A /* Pods-CampeonatoBrasileiroFree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampeonatoBrasileiroFree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CampeonatoBrasileiroFree/Pods-CampeonatoBrasileiroFree.debug.xcconfig"; sourceTree = "<group>"; };
+		A03C452519F49A4500E06A19 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A03C452819F4A14800E06A19 /* Jogos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Jogos.h; path = Models/Jogos.h; sourceTree = "<group>"; };
+		A03C452919F4A14800E06A19 /* Jogos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Jogos.m; path = Models/Jogos.m; sourceTree = "<group>"; };
 		A0449CF819EB061300F69EF2 /* CampeonatoBrasileiroFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampeonatoBrasileiroFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0449CFC19EB061300F69EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0449CFD19EB061300F69EF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +55,21 @@
 		A0449D1119EB061300F69EF2 /* CampeonatoBrasileiroFreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampeonatoBrasileiroFreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0449D1619EB061300F69EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0449D1719EB061300F69EF2 /* CampeonatoBrasileiroFreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampeonatoBrasileiroFreeTests.m; sourceTree = "<group>"; };
+		A05E118219F18F3800BC6075 /* JogosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JogosTableViewController.h; path = Controllers/JogosTableViewController.h; sourceTree = "<group>"; };
+		A05E118319F18F3800BC6075 /* JogosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JogosTableViewController.m; path = Controllers/JogosTableViewController.m; sourceTree = "<group>"; };
+		A05E118519F1901900BC6075 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Controllers/MenuViewController.h; sourceTree = "<group>"; };
+		A05E118619F1901900BC6075 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Controllers/MenuViewController.m; sourceTree = "<group>"; };
+		A061288319F2EAB900C48AE0 /* JogosTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JogosTableViewCell.h; path = Controllers/Cells/JogosTableViewCell.h; sourceTree = "<group>"; };
+		A061288419F2EAB900C48AE0 /* JogosTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JogosTableViewCell.m; path = Controllers/Cells/JogosTableViewCell.m; sourceTree = "<group>"; };
+		A0C7436A19F1BDA300E966AA /* ClassificacaoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassificacaoTableViewController.h; path = Controllers/ClassificacaoTableViewController.h; sourceTree = "<group>"; };
+		A0C7436B19F1BDA300E966AA /* ClassificacaoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassificacaoTableViewController.m; path = Controllers/ClassificacaoTableViewController.m; sourceTree = "<group>"; };
+		A0C7436D19F1BDB700E966AA /* ArtilhariaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtilhariaTableViewController.h; path = Controllers/ArtilhariaTableViewController.h; sourceTree = "<group>"; };
+		A0C7436E19F1BDB700E966AA /* ArtilhariaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArtilhariaTableViewController.m; path = Controllers/ArtilhariaTableViewController.m; sourceTree = "<group>"; };
+		A0EFA8FC19FD9F6600CCCC80 /* RodadaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RodadaTableViewController.h; path = Controllers/RodadaTableViewController.h; sourceTree = "<group>"; };
+		A0EFA8FD19FD9F6600CCCC80 /* RodadaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RodadaTableViewController.m; path = Controllers/RodadaTableViewController.m; sourceTree = "<group>"; };
+		A0EFA8FF19FDA04500CCCC80 /* RodadaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RodadaTableViewCell.h; path = Controllers/Cells/RodadaTableViewCell.h; sourceTree = "<group>"; };
+		A0EFA90019FDA04500CCCC80 /* RodadaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RodadaTableViewCell.m; path = Controllers/Cells/RodadaTableViewCell.m; sourceTree = "<group>"; };
+		D3DF31C7E30E929387199262 /* Pods-CampeonatoBrasileiroFree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampeonatoBrasileiroFree.release.xcconfig"; path = "Pods/Target Support Files/Pods-CampeonatoBrasileiroFree/Pods-CampeonatoBrasileiroFree.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F35AF5B2FA706EBEB1084CE /* libPods-CampeonatoBrasileiroFree.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A03C452719F4A12100E06A19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A03C452819F4A14800E06A19 /* Jogos.h */,
+				A03C452919F4A14800E06A19 /* Jogos.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		A0449CEF19EB061300F69EF2 = {
 			isa = PBXGroup;
 			children = (
 				A0449CFA19EB061300F69EF2 /* CampeonatoBrasileiroFree */,
 				A0449D1419EB061300F69EF2 /* CampeonatoBrasileiroFreeTests */,
 				A0449CF919EB061300F69EF2 /* Products */,
+				D26F3B5DA268147F1BB05276 /* Pods */,
+				CDFAF9BF2B9CFF55F0B7CAC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +123,15 @@
 		A0449CFA19EB061300F69EF2 /* CampeonatoBrasileiroFree */ = {
 			isa = PBXGroup;
 			children = (
+				A03C452719F4A12100E06A19 /* Models */,
+				A0449D0519EB061300F69EF2 /* Main.storyboard */,
+				A05E118119F18B5600BC6075 /* Controllers */,
 				A0449CFF19EB061300F69EF2 /* AppDelegate.h */,
 				A0449D0019EB061300F69EF2 /* AppDelegate.m */,
-				A0449D0219EB061300F69EF2 /* ViewController.h */,
-				A0449D0319EB061300F69EF2 /* ViewController.m */,
-				A0449D0519EB061300F69EF2 /* Main.storyboard */,
 				A0449D0819EB061300F69EF2 /* Images.xcassets */,
 				A0449D0A19EB061300F69EF2 /* LaunchScreen.xib */,
 				A0449CFB19EB061300F69EF2 /* Supporting Files */,
+				A03C452519F49A4500E06A19 /* Constants.h */,
 			);
 			path = CampeonatoBrasileiroFree;
 			sourceTree = "<group>";
@@ -119,6 +162,54 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A05E118119F18B5600BC6075 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A061288219F2EA9700C48AE0 /* Cells */,
+				A0449D0219EB061300F69EF2 /* ViewController.h */,
+				A0449D0319EB061300F69EF2 /* ViewController.m */,
+				A05E118219F18F3800BC6075 /* JogosTableViewController.h */,
+				A05E118319F18F3800BC6075 /* JogosTableViewController.m */,
+				A05E118519F1901900BC6075 /* MenuViewController.h */,
+				A05E118619F1901900BC6075 /* MenuViewController.m */,
+				A0C7436A19F1BDA300E966AA /* ClassificacaoTableViewController.h */,
+				A0C7436B19F1BDA300E966AA /* ClassificacaoTableViewController.m */,
+				A0C7436D19F1BDB700E966AA /* ArtilhariaTableViewController.h */,
+				A0C7436E19F1BDB700E966AA /* ArtilhariaTableViewController.m */,
+				A0EFA8FC19FD9F6600CCCC80 /* RodadaTableViewController.h */,
+				A0EFA8FD19FD9F6600CCCC80 /* RodadaTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A061288219F2EA9700C48AE0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A061288319F2EAB900C48AE0 /* JogosTableViewCell.h */,
+				A061288419F2EAB900C48AE0 /* JogosTableViewCell.m */,
+				A0EFA8FF19FDA04500CCCC80 /* RodadaTableViewCell.h */,
+				A0EFA90019FDA04500CCCC80 /* RodadaTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		CDFAF9BF2B9CFF55F0B7CAC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48E7A4C2608E75EA576D0FA5 /* libPods-CampeonatoBrasileiroFree.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D26F3B5DA268147F1BB05276 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A73E7C635FF9F850169821A /* Pods-CampeonatoBrasileiroFree.debug.xcconfig */,
+				D3DF31C7E30E929387199262 /* Pods-CampeonatoBrasileiroFree.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0449D1B19EB061300F69EF2 /* Build configuration list for PBXNativeTarget "CampeonatoBrasileiroFree" */;
 			buildPhases = (
+				2A98C6637FE652A6E0D008E8 /* Check Pods Manifest.lock */,
 				A0449CF419EB061300F69EF2 /* Sources */,
 				A0449CF519EB061300F69EF2 /* Frameworks */,
 				A0449CF619EB061300F69EF2 /* Resources */,
+				498FD8974BF127C3B97D0C5F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +307,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A98C6637FE652A6E0D008E8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		498FD8974BF127C3B97D0C5F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampeonatoBrasileiroFree/Pods-CampeonatoBrasileiroFree-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0449CF419EB061300F69EF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03C452A19F4A14800E06A19 /* Jogos.m in Sources */,
+				A03C452619F49AF800E06A19 /* Constants.h in Sources */,
 				A0449D0419EB061300F69EF2 /* ViewController.m in Sources */,
+				A0C7436C19F1BDA300E966AA /* ClassificacaoTableViewController.m in Sources */,
 				A0449D0119EB061300F69EF2 /* AppDelegate.m in Sources */,
+				A05E118419F18F3800BC6075 /* JogosTableViewController.m in Sources */,
+				A0EFA90119FDA04500CCCC80 /* RodadaTableViewCell.m in Sources */,
+				A061288519F2EAB900C48AE0 /* JogosTableViewCell.m in Sources */,
+				A0EFA8FE19FD9F6600CCCC80 /* RodadaTableViewController.m in Sources */,
 				A0449CFE19EB061300F69EF2 /* main.m in Sources */,
+				A05E118719F1901900BC6075 /* MenuViewController.m in Sources */,
+				A0C7436F19F1BDB700E966AA /* ArtilhariaTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +478,7 @@
 		};
 		A0449D1C19EB061300F69EF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A73E7C635FF9F850169821A /* Pods-CampeonatoBrasileiroFree.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CampeonatoBrasileiroFree/Info.plist;
@@ -353,6 +489,7 @@
 		};
 		A0449D1D19EB061300F69EF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DF31C7E30E929387199262 /* Pods-CampeonatoBrasileiroFree.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CampeonatoBrasileiroFree/Info.plist;
@@ -414,6 +551,7 @@
 				A0449D1D19EB061300F69EF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0449D1E19EB061300F69EF2 /* Build configuration list for PBXNativeTarget "CampeonatoBrasileiroFreeTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +560,7 @@
 				A0449D2019EB061300F69EF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
